@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.collective.com/
+probe: true
+url: https://trust.collective.com/
+# The Trust Center is a JavaScript single-page app (SafeBase/Vanta-style) whose
+# page title verifies as "Collective Hub, Inc. Trust Center". Named certifications
+# are rendered client-side and could not be extracted verbatim, so none are asserted
+# here (no fabrication). The verified surface is the trust center itself.
+certifications: []
+evidence:
+- source: https://trust.collective.com/
+  kind: trust-center
+  detail: page title "Collective Hub, Inc. Trust Center" (HTTP 200)

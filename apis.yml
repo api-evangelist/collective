@@ -1,8 +1,14 @@
 aid: collective
 name: Collective
-description: Collective is a company surfaced as a portfolio company of general-catalyst, kindred-ventures,
-  qed-investors and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: Collective is an all-in-one financial back-office platform built for self-employed
+  entrepreneurs, solopreneurs, and businesses-of-one. It bundles S Corp formation and election,
+  bookkeeping, payroll (as a Gusto partner), business and personal tax preparation and filing,
+  quarterly tax planning, and a dedicated accounting team into a single membership. Roughly
+  12,000 members use Collective to optimize self-employment taxes, with members reporting
+  average annual business-tax savings around $10,000. Collective is a private fintech company
+  backed by General Catalyst, Kindred Ventures, and QED Investors. It currently exposes no
+  public developer API, SDK, or documentation surface; this profile captures its public web,
+  security, and compliance footprint for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/collective/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +18,31 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.collective.com/_next/static/media/opengraph-image.22d22c62.png
 tags:
 - Company
+- Fintech
+- Accounting
+- Tax
+- Payroll
+- Bookkeeping
+- Self-Employed
+- Financial Services
+- Small Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://collective.com/
+  url: https://www.collective.com/
+- type: Pricing
+  url: https://www.collective.com/plans-and-pricing
+- type: SignUp
+  url: https://www.collective.com/plans-and-pricing
+- type: Login
+  url: https://app.collective.com/
+- type: Blog
+  url: https://www.collective.com/blog
+- type: Support
+  url: https://help.collective.com/hc/en-us
+- type: TermsOfService
+  url: https://www.collective.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.collective.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.collective.com/
+- type: DomainSecurity
+  url: security/collective-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
