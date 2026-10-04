@@ -52,7 +52,7 @@ tags:
 - Payroll
 - Bookkeeping
 - Self-Employed
-- Financial-Services
+- Financial Services
 - Small Business
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Self-Employed
 - Financial Services
 - Small Business
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
