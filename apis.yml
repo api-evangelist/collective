@@ -42,7 +42,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 image: https://www.collective.com/_next/static/media/opengraph-image.22d22c62.png
 tags:
 - Company
@@ -72,6 +72,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.collective.com/feed
+  type: BlogRSS
 - type: Website
   url: https://www.collective.com/
 - type: Pricing
