@@ -3,17 +3,11 @@
   "feeds": [
     {
       "source": "https://www.collective.com/blog",
-      "feed_url": "https://www.collective.com/blog",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     },
     {
       "source": "https://www.collective.com/feed",
-      "feed_url": "https://www.collective.com/feed",
-      "title": "",
-      "saved": 10,
-      "method": "feed"
+      "error": "HTTPError"
     },
     {
       "source": "https://app.collective.com/",
@@ -23,6 +17,6 @@
       "method": "none"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 19,
+  "fetched": "2026-10-17T14:53:57Z"
 }
